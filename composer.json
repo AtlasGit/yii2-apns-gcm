@@ -11,8 +11,18 @@
             "email": "bryantan16@gmail.com"
         }
     ],
+	"repositories": [
+		{
+			"type": "vcs",
+			"url": "https://github.com/AtlasGit/yii2-apns-gcm"
+		},
+		{
+			"type": "vcs",
+			"url": "https://github.com/AtlasGit/ApnsPHP"
+		}
+	],
     "require": {
-        "duccio/apns-php": "1.0.1",
+        "duccio/apns-php": "1.1.1",
         "php-gcm/php-gcm": "^1.1.1"
     },
     "autoload": {
